@@ -40,8 +40,8 @@ final class UpdateChecker {
     static final String BRANCH = "main";
 
     /** 与 ExtUi.VERSION 对应的整数版本，发布新版时 +1。 */
-    static final int VERSION_CODE = 118;
-    static final String VERSION_NAME = "1.18";
+    static final int VERSION_CODE = 119;
+    static final String VERSION_NAME = "1.19";
 
     private static final String CHECKED_AT = "update_checked_at";
     private static final long SIX_HOURS = 6 * 60 * 60 * 1000L;
