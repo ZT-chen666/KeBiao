@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 二课扩展自己的配色（不再沿用课表主色） -->
+    <color name="sc_primary">#2563EB</color>
+    <color name="sc_primary_soft">#EAF1FF</color>
+    <color name="sc_bg">#F4F6FA</color>
+    <color name="sc_surface">#FFFFFF</color>
+    <color name="sc_line">#E5EAF2</color>
+    <color name="sc_line_soft">#EEF2F8</color>
+    <color name="sc_text">#16202C</color>
+    <color name="sc_text_dim">#6B7787</color>
+    <color name="sc_text_hint">#94A0B0</color>
+    <color name="sc_ok">#0E9F6E</color>
+    <color name="sc_ok_bg">#E7F7F1</color>
+    <color name="sc_warn">#B45309</color>
+    <color name="sc_warn_bg">#FFF6E8</color>
+    <color name="sc_red">#DC2626</color>
+    <color name="sc_red_bg">#FDECEC</color>
+    <color name="sc_purple">#7C3AED</color>
+    <color name="sc_purple_bg">#F4EFFF</color>
+    <color name="sc_amber_bg">#FFF7E0</color>
+    <color name="sc_amber">#B45309</color>
+    <color name="sc_amber_line">#F59E0B</color>
+</resources>
