@@ -1166,7 +1166,7 @@ public class SecondClassActivity extends Activity {
     private void loadDetails() {
         final String ck = cookie();
         java.util.List<String> ids = new java.util.ArrayList<>();
-        for (int i = 0; i < activities.length() && ids.size() < 30; i++) {
+        for (int i = 0; i < activities.length() && ids.size() < 120; i++) {
             JSONObject o = activities.optJSONObject(i);
             if (o == null) continue;
             String id = o.optString("activityID");
@@ -1201,7 +1201,9 @@ public class SecondClassActivity extends Activity {
                         if (d.quotaTotal > 0) {
                             quotaMap.put(id, new int[]{d.quotaTotal, Math.max(0, d.quotaApplied)});
                         }
-                        rosterSet.add(id);
+                        if (html.contains("活动名单") || html.contains("已有名单")) {
+                            rosterSet.add(id);
+                        }
                         if ("已报名".equals(d.applyState)) {
                             JSONObject raw = findById2(id);
                             if (raw != null) saveRegistered(raw);
