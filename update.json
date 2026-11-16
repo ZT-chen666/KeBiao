@@ -1,7 +1,7 @@
 {
-  "versionCode": 109,
-  "versionName": "1.9",
-  "url": "https://github.com/ZT-chen666/KeBiao/releases/download/v1.9/kebiao-v1.9.apk",
-  "mirror": "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.9/kebiao-v1.9.apk",
-  "notes": "首个版本：空课找二课、我的活动、签到签退、时间提醒、自动更新"
+    "versionCode":  112,
+    "versionName":  "1.12",
+    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.12/kebiao-v1.12.apk",
+    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.12/kebiao-v1.12.apk",
+    "notes":  "有名单卡片着色修复；加载卡住修复；我的页积分/我的活动切换"
 }
