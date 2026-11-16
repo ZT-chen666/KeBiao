@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 final class ExtUi {
 
     /** 构建标识，用来确认手机上装的是哪一版。 */
-    static final String VERSION = "v1.18 · 2026-11-16";
+    static final String VERSION = "v1.19 · 2026-11-16";
 
 
     private ExtUi() {}
