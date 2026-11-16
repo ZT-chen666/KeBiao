@@ -3,5 +3,5 @@
     "versionName":  "1.18",
     "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.18/kebiao-v1.18.apk",
     "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.18/kebiao-v1.18.apk",
-    "notes":  "🎉 v1.18 更新公告\n\n【本次更新】\n· 报名成功的二课活动会显示在课表上\n· 卡片显示活动名、时间、地点\n· 取消报名后自动从课表移除\n· 修复活动地点显示错误\n\n📦 开源地址：https://github.com/ZT-chen666/KeBiao\n欢迎提 Issue 或 PR，有问题也可以邮件联系。\n作者一 2406609483@qq.com　作者二 3188615046@qq.com\n"
+    "notes":  "🎉 v1.18 更新公告\n\n【本次更新】\n· 报名成功的二课活动会显示在课表上\n· 卡片显示活动名、时间、地点\n· 取消报名后自动从课表移除\n· 修复活动地点显示错误、名单标签误判\n\n📦 开源地址：https://github.com/ZT-chen666/KeBiao\n欢迎提 Issue 或 PR，有问题也可以邮件联系。\n作者一 2406609483@qq.com　作者二 3188615046@qq.com\n"
 }
