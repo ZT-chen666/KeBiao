@@ -1,7 +1,7 @@
 {
-    "versionCode":  114,
-    "versionName":  "1.14",
-    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.14/kebiao-v1.14.apk",
-    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.14/kebiao-v1.14.apk",
-    "notes":  "🎉 v1.14 更新公告\n\n【本次更新】\n· 修复部分网络环境下「检查更新」查不到新版本的问题\n· 关于页新增开源地址\n\n【一起把这个项目做下去】\n这个项目完全免费、代码全部开源，没有任何广告和收费功能。\n\n📦 开源地址（欢迎 Star、提 Issue、提 PR）\nhttps://github.com/ZT-chen666/KeBiao\n\n如果你发现 bug、想要某个功能、或者觉得哪里用着别扭，都可以在 Issues 里告诉我们；\n会写代码的同学更可以直接提 Pull Request，我们一起把它做得更好用。\n每一条想法我们都会认真看，也欢迎把软件分享给身边需要的同学。\n\n—— 作者一 2406609483@qq.com　作者二 3188615046@qq.com\n"
+    "versionCode":  115,
+    "versionName":  "1.15",
+    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.15/kebiao-v1.15.apk",
+    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.15/kebiao-v1.15.apk",
+    "notes":  "🎉 v1.15 更新公告\n\n【本次更新】\n· 设置与二课位置对换，底部导航改为「课表 · 今日 · 二课 · 设置」\n· 更新改为在软件内完成：点「立即更新」直接下载并安装，不用再跳浏览器\n· 下载优先走国内镜像，镜像太慢会自动切换到 GitHub\n· 支持跨版本更新，隔几个版本也能直接升到最新\n\n【一起把这个项目做下去】\n这个项目完全免费、代码全部开源，没有任何广告和收费功能。\n\n📦 开源地址（欢迎 Star、提 Issue、提 PR）\nhttps://github.com/ZT-chen666/KeBiao\n\n如果你发现 bug、想要某个功能、或者觉得哪里用着别扭，都可以在 Issues 里告诉我们；\n会写代码的同学更可以直接提 Pull Request，我们一起把它做得更好用。\n每一条想法我们都会认真看，也欢迎把软件分享给身边需要的同学。\n\n—— 作者一 2406609483@qq.com　作者二 3188615046@qq.com\n"
 }
