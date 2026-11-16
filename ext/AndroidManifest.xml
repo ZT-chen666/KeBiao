@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".KeBiaoApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KeBiao"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="35">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.KeBiao">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".reminder.CourseReminderReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 二课扩展：只新增，不改动课表既有逻辑 -->
+        <activity
+            android:name=".ext.SecondClassActivity"
+            android:exported="false"
+            android:label="空课找二课"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.LoginWebViewActivity"
+            android:exported="false"
+            android:label="登录二课"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.ProjectListActivity"
+            android:exported="false"
+            android:label="二课项目"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.MyActivityActivity"
+            android:exported="false"
+            android:label="我的活动"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.AboutActivity"
+            android:exported="false"
+            android:label="关于"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.StudyActivity"
+            android:exported="false"
+            android:label="我的学习课程"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.MyScoreActivity"
+            android:exported="false"
+            android:label="我的毕业"
+            android:theme="@style/Theme.KeBiao" />
+
+        <activity
+            android:name=".ext.ApplyWebViewActivity"
+            android:exported="false"
+            android:label="二课报名"
+            android:theme="@style/Theme.KeBiao" />
+
+        <provider
+            android:name=".ext.EmptySlotBridge"
+            android:authorities="com.ncvt.kebiao.ext.bridge"
+            android:exported="false"
+            android:initOrder="1000" />
+
+        <receiver
+            android:name=".ext.ActivityReminderReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>
