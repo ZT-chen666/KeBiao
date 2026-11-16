@@ -1,7 +1,7 @@
 {
-    "versionCode":  113,
-    "versionName":  "1.13",
-    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.13/kebiao-v1.13.apk",
-    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.13/kebiao-v1.13.apk",
-    "notes":  "🎉 v1.13 更新公告\n\n【本次更新】\n· 设置页新增「当前版本」和「检查更新」，点一下就知道有没有新版\n· 以后每次打开 App 都会自动检查更新（国内网络已做镜像回退，不用梯子）\n· 修复从课表长按进入二课页时一直转圈、加载不出来\n· 修复标题带「已有名单」的活动不显示彩色卡片\n· 「我的」页新增「积分 / 我的活动」切换，当前在哪个页面一眼就能看出\n\n【一起把这个项目做下去】\n这个项目完全免费、代码全部开源，没有任何广告和收费功能。\n\n📦 开源地址（欢迎 Star、提 Issue、提 PR）\nhttps://github.com/ZT-chen666/KeBiao\n\n如果你发现 bug、想要某个功能、或者觉得哪里用着别扭，都可以在 Issues 里告诉我们；\n会写代码的同学更可以直接提 Pull Request，我们一起把它做得更好用。\n每一条想法我们都会认真看，也欢迎把软件分享给身边需要的同学。\n\n—— 作者一 2406609483@qq.com　作者二 3188615046@qq.com\n"
+    "versionCode":  114,
+    "versionName":  "1.14",
+    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.14/kebiao-v1.14.apk",
+    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.14/kebiao-v1.14.apk",
+    "notes":  "🧪 v1.14 更新测试公告\n\n这是一次**更新功能验证**（更新测试），主要用来确认「自动检查更新」在真机上能否正常工作。\n\n【这次的改动】\n· 修复镜像顺序：原来优先读 jsDelivr，而它有 12 小时缓存，导致拿到的还是旧版本号，等于查不到更新\n· 现在顺序改为 ghproxy → gh-proxy → GitHub raw → jsDelivr，前三者不缓存，发版后立刻生效\n· 移除已失效的 raw.gitmirror.com（域名已无法解析）\n· 发布脚本会自动清理 jsDelivr 缓存\n· 关于页补上开源地址\n\n【更新测试的意义】\n你现在装的是 v113（旧镜像顺序），所以手动「检查更新」会提示已是最新。\n装上本版 v114 之后，下次发版时应该能在启动时正常弹出更新提示——\n如果你再次看到「已是最新版本」但仓库确实有新版本，请把手机上的现象告诉我们，这正是这次测试要验证的问题。\n\n【一起把这个项目做下去】\n这个项目完全免费、代码全部开源，没有任何广告和收费功能。\n\n📦 开源地址（欢迎 Star、提 Issue、提 PR）\nhttps://github.com/ZT-chen666/KeBiao\n\n发现 bug、想要新功能、或者觉得哪里用着别扭，都可以在 Issues 里说；\n会写代码的同学欢迎直接提 Pull Request，我们一起把它做得更好用。\n每一条想法我们都会认真看，也欢迎分享给身边需要的同学。\n\n—— 作者一 2406609483@qq.com　作者二 3188615046@qq.com\n"
 }
