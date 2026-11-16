@@ -1,7 +1,7 @@
 {
-    "versionCode":  112,
-    "versionName":  "1.12",
-    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.12/kebiao-v1.12.apk",
-    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.12/kebiao-v1.12.apk",
-    "notes":  "有名单卡片着色修复；加载卡住修复；我的页积分/我的活动切换"
+    "versionCode":  113,
+    "versionName":  "1.13",
+    "url":  "https://github.com/ZT-chen666/KeBiao/releases/download/v1.13/kebiao-v1.13.apk",
+    "mirror":  "https://ghproxy.net/https://github.com/ZT-chen666/KeBiao/releases/download/v1.13/kebiao-v1.13.apk",
+    "notes":  "设置页加版本与检查更新；每次启动自动检查；有名单着色修复"
 }
